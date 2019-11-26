@@ -1,0 +1,75 @@
+.input-output-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.text-field {
+  border: solid 1px #305f72;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 15px 0;
+  -webkit-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+  outline: none;
+  height: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.error {
+  color: #db1b1e;
+}
+
+.text-field::-webkit-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.text-field:-ms-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.text-field::-ms-input-placeholder {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.text-field::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.text-field:focus {
+  border: solid 1px #1c3742;
+  -webkit-box-shadow: 0 0 5px #1c3742;
+  box-shadow: 0 0 5px #1c3742;
+}
+
+.translate-button {
+  font-family: 'Montserrat', sans-serif;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 80%;
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #305f72;
+  color: #fff;
+  font-weight: 400;
+  border-style: none;
+  -webkit-box-shadow: 1px 1px 1px 1px #264b5a;
+  box-shadow: 1px 1px 1px 1px #264b5a;
+}
+
+.translate-button:disabled {
+  background-color: #ccc;
+  cursor: initial;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

@@ -1,0 +1,65 @@
+.language-select-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.block-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 30px solid #305f72;
+	border-bottom: 15px solid transparent;
+}
+
+.square {
+  height: 15px;
+  width: 40px;
+  background-color: #305f72;
+}
+
+.base-language {
+  border: solid 1px #305f72;
+  border-radius: 6px;
+  background-color: #fff;
+  font-weight: 600;
+  width: 150px;
+  padding: 5px 10px;
+}
+
+.chosen-language {
+  border: solid 1px #305f72;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #305f72;
+  width: 200px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.30s ease-in-out;
+  transition: all 0.30s ease-in-out;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chosen-language:focus {
+  border: solid 1px #1c3742;
+  -webkit-box-shadow: 0 0 5px #1c3742;
+  box-shadow: 0 0 5px #1c3742;
+}
