@@ -1,7 +1,7 @@
 import React from 'react'
 import './Instructions.css'
 
-const instructions = () => {
+const Instructions = () => {
   return (
     <div className='instructions'>
       Select a language and type your translation in the box below.
@@ -11,4 +11,4 @@ const instructions = () => {
   )
 }
 
-export default instructions
+export default Instructions

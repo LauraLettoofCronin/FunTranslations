@@ -1,15 +1,6 @@
-.App {
+.app {
   height: 100vh;
   background-color: #f6e3d2;
   overflow-x: hidden;
   position: relative;
 }
-
-.loading {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
